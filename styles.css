@@ -1,0 +1,134 @@
+/*registration for styesheet. Week 3 HIT226*/
+
+html {
+	scroll-behavior:smooth;
+}
+
+body {
+	font-family: sans-serif;
+	background: url('images/background_5.jpg') top center no-repeat; /*Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=692186">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=692186">Pixabay</a> */
+	background-size: cover;
+}
+
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	border-radius: 4px;
+}
+
+.email-first {
+	width: 30%;
+  margin: auto;
+	margin-top: 4%;
+	padding-bottom: 20px;
+}
+
+.email-first label {
+	width: auto;
+	color: white;
+	font-size: 24px;
+	display: block;
+	text-align: center;
+}
+
+.email-first button {
+	width: auto;
+	padding: 4px 8px;
+	display: block;
+	border: none;
+	border-radius: 4px;
+	font-size: 26px;
+	margin: auto;
+	background-color: rgba(61, 224, 222, 1);
+}
+
+.email-first button:hover {
+	cursor: pointer;
+	color: rgba(84, 74, 237, 1);
+}
+
+.registration {
+	background-color: rgba(163, 163, 163, 0.8);
+	border-radius: 4px;
+	width: 35%;
+	margin: auto;
+	height: 0;
+	overflow: hidden;
+	transition: 800ms ease;
+}
+
+.registration:target {
+	width: 35%;
+	margin: auto;
+	height: 100%;
+	padding: 8px;
+	overflow: hidden;
+	transition: 800ms ease;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+	border:none;
+	border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+select {
+	background-color: white;
+  width: 100%;
+	box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	cursor: pointer;
+}
+
+fieldset {
+	border: none;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+#submit-btn {
+	padding: 4px 8px;
+	float: left;
+	display: inline-block;
+	border: none;
+	border-radius: 4px;
+	font-size: 26px;
+	margin: auto;
+	background-color: rgba(94, 224, 43, 1);
+}
+
+#submit-btn:hover {
+	cursor: pointer;
+	color: rgba(84, 74, 237, 1);
+}
+
+.cancel-btn {
+	display: block;
+	border: none;
+	border-radius: 4px;
+	font-size: 26px;
+	margin: auto;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+	background: rgba(255, 51, 0, 1);
+	padding: 4px 8px;
+}
+
+.cancel-btn a {
+	text-decoration: none;
+	color: white;
+	cursor: no-drop;
+}
