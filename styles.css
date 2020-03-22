@@ -33,18 +33,19 @@ body {
 	text-align: center;
 }
 
-.email-first button {
-	width: auto;
-	padding: 4px 8px;
+.continue a {
+	width: 100px;
+	padding: 8px 8px;
 	display: block;
 	border: none;
 	border-radius: 4px;
 	font-size: 26px;
+	text-decoration: none;
 	margin: auto;
 	background-color: rgba(61, 224, 222, 1);
 }
 
-.email-first button:hover {
+.continue a:hover {
 	cursor: pointer;
 	color: rgba(84, 74, 237, 1);
 }
@@ -62,7 +63,7 @@ body {
 .registration:target {
 	width: 35%;
 	margin: auto;
-	height: 100%;
+	height: auto;
 	padding: 8px;
 	overflow: hidden;
 	transition: 800ms ease;
